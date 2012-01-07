@@ -1,7 +1,7 @@
 SampleApp::Application.routes.draw do
-  math '/contact', :to => 'pages#contact'
-  math '/about', :to => 'pages#about'
-  math '/help', :to => 'pages#help'
+  match '/contact', :to => 'pages#contact'
+  match '/about', :to => 'pages#about'
+  match '/help', :to => 'pages#help'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
