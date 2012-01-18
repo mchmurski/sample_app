@@ -3,27 +3,27 @@
 }
 
 body {
-	background: #cff
+	background: #cff;
 }
 
 header {
-	padding-top: 20px
+	padding-top: 20px;
 }
 
 header img {
 	padding: 1em;
-	background: #FFF
+	background: #FFF;
 }
 
 section {
 	margin-top: 1em;
 	font-size: 120%;
 	padding: 20px;
-	background: #FFF
+	background: #FFF;
 }
 
 section h1 {
-	font-size: 200%
+	font-size: 200%;
 }
 
 footer {
@@ -31,27 +31,27 @@ footer {
 	margin-top: 10px;
 	width: 710px;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
 }
 
 footer nav {
-	float: none
+	float: none;
 }
 
 /* Links */
 
 a {
 	color: #09c;
-	text-decoration: none
+	text-decoration: none;
 }
 
 a:hover {
 	color: #069;
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 a:visited {
-		color: #069
+		color: #069;
 }
 
 /* Navigation */
@@ -102,7 +102,7 @@ a.signup_button {
 	background: #006400;
 	font-size: 150%;
 	font-weight: bold;
-	padding: 20px
+	padding: 20px;
 }
 
 /* Round corners */
@@ -110,7 +110,7 @@ a.signup_button {
 .round {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 10px
+	border-radius: 10px;
 }
 
 /* User show page */
@@ -135,9 +135,10 @@ td.sidebar {
 .profile img.gravatar {
   border: 1px solid #999;
   margin-bottom: -15px;
+}
 
 div.field, div.actions {
-	margin-bottom: 10px
+	margin-bottom: 10px;
 }
 
 /* Error messages for Sign up */

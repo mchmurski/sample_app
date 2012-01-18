@@ -2,4 +2,12 @@
 <p>
   Contact Ruby on Rails Tutorial about the sample app at the
   <a href="http://railstutorial.org/feedback">feedback page</a>.
+
+<%= form_tag(:controller => "pages", :action => "about", :method => "post") do %>
+  <%= label_tag(:imie, "Imie:") %>
+  <%= text_field_tag(:imie) %>
+  <%= submit_tag("Wyslij") %>
+<% end %>
+
 </p>
+

@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
   
   def create
-    @user = User.new(params[:user])
+    @user = User.new(params[:id])
     if @user.save
       #Handle a successful save.
     else
